@@ -4,7 +4,7 @@
 
 <div class="rounded-full h-40 w-40">
 	<img
-		src="https://avatars.githubusercontent.com/u/121493004?v=4"
+		src="./favicon.png"
 		alt="profile img"
 		class="object-contain rounded-full"
 	/>
