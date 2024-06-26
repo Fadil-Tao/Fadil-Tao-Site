@@ -52,6 +52,6 @@ body {
 		font-family: "appleII";
 		font-style: normal;
 		font-weight: normal;
-		src: url("./fonts/AppleII.otf") format("opentype");
+		src: url("/fonts/AppleII.otf") format("opentype");
 	}
 }
