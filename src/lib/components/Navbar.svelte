@@ -1,6 +1,6 @@
 <script>
 	import NavButton from './NavButton.svelte';
-	import {IconHome,IconBook,IconHammer,IconBrandLinkedin,IconBrandX} from "@tabler/icons-svelte"
+	import {IconHome,IconBook,IconHammer,IconBrandLinkedin,IconBrandGithub} from "@tabler/icons-svelte"
 </script>
 
 <nav class="flex justify-between bg-[#191724] rounded-xl p-3 ">
@@ -15,8 +15,8 @@
 			<IconBook/>
 		</NavButton>
 	</div>
-	<div class="lg:flex  ">
-		<NavButton to={'music'} title={''}><IconBrandLinkedin/></NavButton>
-		<NavButton to={'games'} title={''}><IconBrandX/></NavButton>
+	<div class="md:flex  ">
+		<NavButton to={'https://www.linkedin.com/in/hadad-fadilah234/'} title={''}><IconBrandLinkedin/></NavButton>
+		<NavButton to={'https://github.com/Fadil-Tao'} title={''}><IconBrandGithub/></NavButton>
 	</div>
 </nav>

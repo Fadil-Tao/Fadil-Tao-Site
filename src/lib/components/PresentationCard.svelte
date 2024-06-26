@@ -2,11 +2,11 @@
 	import TechBigIcon from './TechBigIcon.svelte';
 </script>
 
-<div class="rounded-full h-40 w-40">
+<div class="">
 	<img
 		src="./favicon.webp"
 		alt="profile img"
-		class="object-contain rounded-full"
+		class="rounded-full h-40 w-48"
 	/>
 </div>
 <div class=" text-center">

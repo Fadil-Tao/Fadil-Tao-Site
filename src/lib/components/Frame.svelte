@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 </script>
 
-<div class="border-magenta border-[1.5px] border-opacity-80 bg-black bg-opacity-80">
+<div class="border-magenta border-[1.5px] border-opacity-80 bg-black bg-opacity-95">
 	<div class="framehead flex items-center justify-between lg:px-9 md:px-8 px-5 py-[3px] text-white">
 		<div class="flex lg:items-start items-end">
 			<img src="./icons/folder.webp" alt="" class="h-[20px] mr-2">
@@ -14,7 +14,7 @@
 			<div class="w-4 ml-1 h-4 bg-[#FA4B47] rounded-full"></div>
 		</div>
 	</div>
-	<div class="framebody lg:px-10 md:px-8 px-5 flex flex-col justify-center items-center py-5">
+	<div class="framebody lg:px-10 md:px-8 px-3 flex flex-col justify-center items-center py-5">
 	 	<slot/>
 	</div>
 </div>
