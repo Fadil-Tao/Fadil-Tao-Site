@@ -4,6 +4,9 @@
 
 </script>
 <div>
-    <Frame/>
-    <a href="read/niga">asshole</a>
+    <Frame>
+        <div class="min-h-screen flex justify-center items-center">
+            <p>COMING SOON .....</p>
+        </div>
+    </Frame>
 </div>
