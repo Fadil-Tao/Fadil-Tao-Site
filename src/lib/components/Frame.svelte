@@ -4,8 +4,8 @@
 
 <div class="border-magenta border-[1.5px] border-opacity-80 bg-black bg-opacity-80">
 	<div class="framehead flex items-center justify-between lg:px-9 md:px-8 px-5 py-[3px] text-white">
-		<div class="flex items-start">
-			<img src="./icons/folder.png" alt="" class="h-[20px] mr-2">
+		<div class="flex lg:items-start items-end">
+			<img src="./icons/folder.webp" alt="" class="h-[20px] mr-2">
 			<p class="md:text-base text-xs">{`C:/HADAD${$page.url.pathname.toUpperCase()}`}</p>
 		</div>
 		<div class="flex">

@@ -21,7 +21,7 @@
 
 	let volume = 0.5;
 
-	let volumeSliderValue = 0;
+	let volumeSliderValue = 50;
 
 	let maxVolume = 100;
 
@@ -126,7 +126,7 @@
 		switchSong();
 	};
 
-	const changeVolume = (volumeSliderValue) => {
+	const changeVolume = (volumeSliderValue:number) => {
 		volume = volumeSliderValue / 100 
 
 		if (volume === 0){
@@ -154,7 +154,7 @@
 					<DropdownMenuSeparator />
 					{#each playlist as { name, url }, i}
 						<DropdownMenuItem>
-							<button on:click={() => jumpTo(i)}>{name}</button>
+							<button on:click={() => jumpTo(i)} class={`${i === songId ? "text-plum font-extrabold": "text-black"}`}>{name}</button>
 						</DropdownMenuItem>
 					{/each}
 				</DropdownMenuGroup>

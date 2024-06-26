@@ -5,6 +5,10 @@
 </script>
 
 <div class="app py-[40px] px-5 md:px-[60px] min-h-screen">
+    <video autoplay muted loop id="background-video">
+        <source src="./background.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
     <Player />
     <Navbar />
     <main class="mt-5">
@@ -14,9 +18,25 @@
 
 
 <style>
-    .app{
-        background: url("./background.gif");
-        background-size: cover  ;
-        background-repeat: no-repeat    ;
+    .app {
+        position: relative;
+        overflow: hidden;
+        min-height: 100vh;
+    }
+
+    #background-video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+
+    .app > *:not(video) {
+        position: relative;
+        z-index: 1;
     }
 </style>

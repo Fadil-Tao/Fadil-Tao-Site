@@ -4,13 +4,12 @@
 
 <nav class="flex justify-between bg-[#191724] rounded-xl p-3 ">
 	<div class="flex lg:justify-normal justify-center items-center">
-		<NavButton to={''} title={'Home'} icon={"home"}/>
-		<NavButton to={'projects'} title={'Projects'} icon={"construction"}/>
-		<NavButton to={'blog'} title={'Blog'} icon={"library_books"}/>
-		<NavButton to={'contacts'} title={'Contact'} icon={"contacts"}/>
+		<NavButton to={''} title={'Home'}>
+		<NavButton to={'projects'} title={'Projects'} />	
+		<NavButton to={'blog'} title={'Blog'}/>
 	</div>
 	<div class="lg:flex hidden ">
-		<NavButton to={'music'} title={''} icon={"library_music"}/>
-		<NavButton to={'games'} title={''} icon={"stadia_controller"}/>
+		<NavButton to={'music'} title={''} />
+		<NavButton to={'games'} title={''}/>
 	</div>
 </nav>

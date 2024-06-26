@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vite dev --host",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -34,6 +34,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@tabler/icons-svelte": "^3.6.0",
 		"bits-ui": "^0.21.10",
 		"clsx": "^2.1.1",
 		"svelte-radix": "^1.1.0",

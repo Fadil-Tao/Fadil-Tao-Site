@@ -4,7 +4,7 @@
 
 <div class="rounded-full h-40 w-40">
 	<img
-		src="./favicon.png"
+		src="./favicon.webp"
 		alt="profile img"
 		class="object-contain rounded-full"
 	/>
