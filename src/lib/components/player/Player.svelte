@@ -60,6 +60,18 @@
 		{
 			name: 'Cruel Angel Thesis',
 			url: 'https://www.dropbox.com/scl/fi/d5pv31kjicyt7hwj5dhy6/MUSIC-VIDEO-HDver.-Zankoku-na-Tenshi-no-Te-ze-The-Cruel-Angel-s-Thesis.mp3?rlkey=5hjf6sr3x61pwm5dhpnqubiwh&st=d7nr9ubm&dl=1'
+		},
+		{
+			name:"Siinamota - Girl A",
+			url:'https://www.dropbox.com/scl/fi/smim7kopofqemzmp5jrp9/siinamota-Young-Girl-A-A.mp3?rlkey=7bwqeevz33eoehu8ug5l5jsb0&st=fysdvbui&dl=1'
+		},
+		{
+			name:"Inabakumori - Yoyuku",
+			url:"https://www.dropbox.com/scl/fi/w6jhpw9n77ec6431ykhj4/yoyuku.mp3?rlkey=p9rcovs2oeekuvh5ff8nmodk5&st=si90w562&dl=1"	
+		},
+		{
+			name:"Rika Mayama - Liar Mask",
+			url:"https://www.dropbox.com/scl/fi/0rqy9la7nql4hclqgn4h9/Liar-Mask.mp3?rlkey=nujier2g6m63c16m8vlcypx2j&st=wb0wlgni&dl=1",
 		}
 	];
 
